@@ -23,16 +23,37 @@ h1 {
     font-size: 96px;
 }
 
-h2 {
+h2,
+.about-h1 {
     font-size: 64px;
 }
 
-.hero {
+.about-h2 {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    color: var(--secondary-color);
+}
+
+.home-hero {
     display: block;
     background-color: var(--branding-color);
     text-align: center;
     padding: 200px;
 }
+
+.about-hero {
+    padding: 170px;
+}
+
+.r1-c1 {
+    margin-right: 25px;
+}
+
+
+.r1-c2 {
+    margin-left: 25px;
+}
+
 
 .p1 {
     font-size: 36px;
@@ -51,9 +72,14 @@ h2 {
 
 .p4,
 .p5,
-.p6 {
+.p6,
+.about-p {
     font-size: 16px;
     opacity: 70%;
+}
+
+.img-pp {
+    border-radius: 20px;
 }
 
 .btn-branding {
@@ -81,7 +107,7 @@ h2 {
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
-        line-height: 1.5;
+        line-height: 1.4;
     }
 
     h2 {
