@@ -24,7 +24,8 @@ h1 {
 }
 
 h2,
-.about-h1 {
+.about-h1,
+.work-h1 {
     font-size: 64px;
 }
 
@@ -41,7 +42,8 @@ h2,
     padding: 200px;
 }
 
-.about-hero {
+.about-hero,
+.work-hero {
     padding: 170px;
 }
 
@@ -104,7 +106,9 @@ h2,
         line-height: 1.4;
     }
 
-    h2 {
+    h2,
+    .about-h1,
+    .work-h1 {
         font-size: 36px;
     }
 
@@ -117,11 +121,13 @@ h2,
     }
 
     .p2,
-    .p3 {
+    .p3,
+    .about-h2 {
         font-size: 15px;
     }
 
-    .container {
+    .container,
+    .work-h1 {
         text-align: center;
     }
 
@@ -133,15 +139,8 @@ h2,
         padding: 100px;
     }
 
-    .about-h1 {
-        font-size: 36px;
-    }
-
-    .about-h2 {
-        font-size: 15px;
-    }
-
-    .about-hero {
+    .about-hero,
+    .work-hero {
         padding: 0;
         margin: 30px;
     }
@@ -149,5 +148,15 @@ h2,
     .r1-c1 {
     margin: 30px 0px;
 }
- 
+
+.work-hero {
+    padding-top: 50px;
+}
+
+.pic-1,
+.pic-3,
+.pic-4 {
+    margin-bottom: 50px;
+}
+    
 }
