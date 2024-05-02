@@ -25,7 +25,8 @@ h1 {
 
 h2,
 .about-h1,
-.work-h1 {
+.work-h1,
+.contact-h1 {
     font-size: 64px;
 }
 
@@ -43,8 +44,13 @@ h2,
 }
 
 .about-hero,
-.work-hero {
+.work-hero,
+.contact-hero{
     padding: 170px;
+}
+
+.contact-h3 {
+    font-weight: bold;
 }
 
 .r1-c1 {
@@ -57,7 +63,8 @@ h2,
     margin: 0;
 }
 
-.p2 {
+.p2,
+.contact-h3 {
     font-size: 24px;
 }
 
@@ -127,7 +134,8 @@ h2,
     }
 
     .container,
-    .work-h1 {
+    .work-h1,
+    .contact-hero {
         text-align: center;
     }
 
@@ -135,7 +143,8 @@ h2,
         padding: 0;
     }
 
-    .home-hero {
+    .home-hero,
+    .contact-hero {
         padding: 100px;
     }
 
