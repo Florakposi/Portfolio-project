@@ -86,7 +86,6 @@ h2,
 .work-hero,
 .contact-hero{
     padding: 170px;
-    padding-bottom: 30px;
 }
 
 .contact-h3 {
@@ -253,6 +252,10 @@ nav {
         padding: 100px;
     }
 
+    .contact-hero {
+        padding-bottom: 10px;
+    }
+
     .about-hero,
     .work-hero {
         padding: 0;
@@ -287,7 +290,7 @@ nav {
 }
 
 .contact-footer {
-    margin-top: 250px;
+    margin-top: 235px;
 }
 
 }
