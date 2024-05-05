@@ -199,6 +199,10 @@ nav {
         margin: 30px;
     }
 
+    .body-container {
+        padding: auto 30px auto 25px;
+    }
+
     .r1-c1 {
     margin: 30px 0px;
 }
