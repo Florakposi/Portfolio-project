@@ -53,6 +53,15 @@ ul {
     padding: 0;
 }
 
+footer {
+    margin: 30px 0;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+
 h2,
 .about-h1,
 .work-h1,
@@ -77,6 +86,7 @@ h2,
 .work-hero,
 .contact-hero{
     padding: 170px;
+    padding-bottom: 30px;
 }
 
 .contact-h3 {
@@ -101,6 +111,55 @@ h2,
 .p3 {
     font-size: 18px;
     margin: 130px 48px 70px 48px;
+}
+
+.email {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.email a {
+    color: black;
+    transition: all 100ms ease-in-out;
+}
+
+.email a:hover {
+    color: var(--primary-color);
+}
+
+
+.social-links {
+    font-size: 18px;
+    margin: 40px;
+}
+
+.social-links a {
+    margin: auto 20px;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: var(--branding-color);
+    color: var(--primary-color);
+    transition: all 100ms ease-in-out;
+}
+
+.social-links a:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.footer-container {
+    background-color: var(--branding-color);
+    padding: 50px 120px;
+    margin: 140px auto;
+    border-radius: 20px;
+}
+
+.contact-box p {
+    margin: 0;
+}
+
+.contact-btn a {
+    margin-top: 20px;
 }
 
 .p4,
@@ -143,6 +202,7 @@ h2,
 
 
 @media (max-width: 900px) {
+
     h1,
     .contact-h1 {
         font-size: 44px;
@@ -216,6 +276,18 @@ nav {
 .pic-3,
 .pic-4 {
     margin-bottom: 50px;
+}
+
+.social-links {
+    margin: 20px;
+}
+
+.social-links a {
+    margin: auto 10px;
+}
+
+.contact-footer {
+    margin-top: 250px;
 }
 
 }
