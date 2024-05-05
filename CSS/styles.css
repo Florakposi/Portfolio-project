@@ -23,6 +23,36 @@ h1 {
     font-size: 96px;
 }
 
+nav {
+    padding: 20px 100px;
+    background-color: var(--branding-color);
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    margin-left: 25px;
+    line-height: 40px;
+}
+
+li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+    opacity: 70%;
+    font-weight: bold;
+    transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+    color: var(--primary-color);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 h2,
 .about-h1,
 .work-h1,
@@ -107,11 +137,26 @@ h2,
     padding: 120px 60px;
 }
 
+.logo {
+    max-height: 40px;
+}
+
+
 @media (max-width: 900px) {
-    h1 {
+    h1,
+    .contact-h1 {
         font-size: 44px;
         line-height: 1.4;
     }
+
+    nav li {
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+nav {
+    padding: 10px 50px;
+}
 
     h2,
     .about-h1,
@@ -167,5 +212,5 @@ h2,
 .pic-4 {
     margin-bottom: 50px;
 }
-    
+
 }
