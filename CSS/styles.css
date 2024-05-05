@@ -200,7 +200,8 @@ nav {
     }
 
     .body-container {
-        padding: auto 30px auto 25px;
+        padding-left: 25px;
+        padding-right: 30px;
     }
 
     .r1-c1 {
